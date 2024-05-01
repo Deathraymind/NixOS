@@ -97,8 +97,59 @@
     git
     kitty
     vscode
+    waybar
+    rofi
+    nerdfonts
+
+    # audio
+    pipewire
+    pamixer
+    # network
+    networkmanager
+    networkmanagerapplet
+    # bluetooth
+    bluez
+    blueman
+    brightnessctl
     
+    # qt support
+    
+
+    dunst
+    wlogout
+    swww
+
+    # screenshot
+    grimblast
+    slurp
+    swappy
+    cliphist
+
+    # dependencies
+    polkit-kde-agent
+    xdg-desktop-portal-hyprland
+    parallel
+    jq
+    imagemagick
+    ffmpegthumbs
+    kde-cli-tools
+
+    # theme stuff
+    nwg-look
+    qt5ct
+    qt6ct
+    
+
+
   ];
+
+
+  fonts.fonts = with pkgs; [
+    nerdfonts
+  ];
+
+
+
 
 #,---.                          ,--.                     
 #'   .-'  ,---. ,--.--.,--.  ,--.`--' ,---. ,---.  ,---.  
