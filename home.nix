@@ -20,7 +20,7 @@
   #     xxx
   # '';
 
-  # set cursor size and dpi for 4k monitor
+  # set cursor size and dpi for 4k monitord
   xresources.properties = {
     "Xcursor.size" = 16;
     "Xft.dpi" = 172;
